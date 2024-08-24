@@ -1,2 +1,12 @@
 @import "./components/main-container";
 @import "./components/container.scss";
+
+@import "./base/reset";
+@import "./utils/button";
+
+@import "./utils/variebles";
+@import  "./base/common";
+
+@import "./layout/header";
+@import "./layouts/footer";
+@import "./layouts/form";
