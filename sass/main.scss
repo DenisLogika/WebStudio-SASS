@@ -1,12 +1,18 @@
+@import "./base/reset";
+@import "./utils/variebles";
+
+@import "./utils/button";
+@import  "./base/common";
+
 @import "./components/main-container";
 @import "./components/container.scss";
 
-@import "./base/reset";
-@import "./utils/button";
-
-@import "./utils/variebles";
-@import  "./base/common";
-
-@import "./layout/header";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/occupation";
+@import "./layouts/team";
+@import "./layouts/company";
 @import "./layouts/footer";
 @import "./layouts/form";
+@import "./layouts/portfolio";

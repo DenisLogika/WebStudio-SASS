@@ -1,0 +1,40 @@
+.regestration-button {
+    background-color: var(--main-button-color);
+    color: var(--main-text-color);
+    padding: 10px 32px;
+    min-width: 216px;
+    border: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title {
+    color: var(--main-text-color);
+    margin-bottom: 30px;
+}
+
+.section-title {
+    background-color: var(--main-header-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image:
+        linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/main/background-image-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-title {
+    background-color: var(--main-heading-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
