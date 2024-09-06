@@ -3,11 +3,6 @@
     padding-bottom: 94px;
 }
 
-.heading-occupation {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
 .occupation-list {
     display: flex;
 }
@@ -41,7 +36,7 @@
     width: 370px;
 }
 
-.heading-occupation {
+.heading-occupation__title {
     font-family: $font-family;
     font-weight: 700;
     font-size: 36px;

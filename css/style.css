@@ -460,7 +460,7 @@ body{
     margin-right: 30px;
 }
 
-.features-name {
+.features-name__title__text__text__text {
     margin-bottom: 10px;
     font-family: var(--font-family);
     font-weight: 700;
@@ -470,7 +470,7 @@ body{
     text-transform: uppercase;
 }
 
-.features-description {
+.features-description__paragraph {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
@@ -484,7 +484,7 @@ body{
     padding-bottom: 94px;
 }
 
-.heading-occupation {
+.heading-occupation__title {
     text-align: center;
     margin-bottom: 50px;
 }
@@ -522,7 +522,7 @@ body{
     width: 370px;
 }
 
-.heading-occupation {
+.heading-occupation__title {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
@@ -541,13 +541,13 @@ body{
     display: flex;
 }
 
-.team-svg {
+.team-svg__list {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.svg-team {
+.svg-team__item {
     display: flex;
 }
 
@@ -598,7 +598,7 @@ body{
     text-align: center;
 }
 
-.team-person {
+.team-person__title {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -606,7 +606,7 @@ body{
     letter-spacing: 0.03em;
 }
 
-.team-job {
+.team-job__text {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -633,7 +633,7 @@ body{
     padding: 94px, 0;
 }
 
-.compony-text {
+.compony-title {
     text-align: center;
     font-family: var(--font-family);
     font-weight: 700;
@@ -699,12 +699,12 @@ body{
     display: flex;
 }
 
-.footer-links {
+.footer-links__div {
     display: flex;
     flex-direction: column;
 }
 
-.footer-location {
+.footer-location__text {
     font-weight: 400;
     line-height: 1.71;
     font-style: normal;
@@ -736,7 +736,7 @@ body{
     letter-spacing: 0.03em;
 }
 
-.social-network {
+.social-network__div {
     display: flex;
     margin-left: 70px;
     flex-direction: column;
@@ -782,7 +782,7 @@ body{
     background-color: var(--main-button-color);
 }
 
-.subscribe-newsletter {
+.subscribe-newsletter__form {
     margin-left: 93px;
 }
 
@@ -793,7 +793,7 @@ body{
 
 }
 
-.subscribe-email{
+.subscribe-email__input{
     width: 358px;
     margin: 0 12px 0 0;
     padding: 0 16px;
@@ -839,7 +839,7 @@ body{
     margin-top: 12px;
 }
 
-.subscribe-title {
+.subscribe-title__span {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -929,7 +929,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.regestration {
+.regestration__form {
     display: flex;
     justify-content: center;
     align-items: center;

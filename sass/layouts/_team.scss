@@ -6,13 +6,13 @@
     display: flex;
 }
 
-.team-svg {
+.team-svg__list {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.svg-team {
+.svg-team__item {
     display: flex;
 }
 
@@ -63,7 +63,7 @@
     text-align: center;
 }
 
-.team-person {
+.team-person__title {
     font-family: $font-family;
     font-weight: 500;
     font-size: 16px;
@@ -71,7 +71,7 @@
     letter-spacing: 0.03em;
 }
 
-.team-job {
+.team-job__text {
     font-family: $font-family;
     font-weight: 400;
     font-size: 16px;

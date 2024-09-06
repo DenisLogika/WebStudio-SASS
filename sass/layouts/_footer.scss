@@ -15,12 +15,12 @@
     display: flex;
 }
 
-.footer-links {
+.footer-links__div {
     display: flex;
     flex-direction: column;
 }
 
-.footer-location {
+.footer-location__text {
     font-weight: 400;
     line-height: 1.71;
     font-style: normal;
@@ -52,7 +52,7 @@
     letter-spacing: 0.03em;
 }
 
-.social-network {
+.social-network__div {
     display: flex;
     margin-left: 70px;
     flex-direction: column;
@@ -98,7 +98,7 @@
     }
 }
 
-.subscribe-newsletter {
+.subscribe-newsletter__form {
     margin-left: 93px;
 }
 
@@ -109,7 +109,7 @@
 
 }
 
-.subscribe-email{
+.subscribe-email__input{
     width: 358px;
     margin: 0 12px 0 0;
     padding: 0 16px;
@@ -139,7 +139,7 @@
     margin-top: 12px;
 }
 
-.subscribe-title {
+.subscribe-title__span {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
