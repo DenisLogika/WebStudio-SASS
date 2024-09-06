@@ -24,7 +24,7 @@
     max-width: 528px;
     padding: 40px;
     border-radius: 4px;
-    background-color: var(--main-text-color);
+    background-color: $main-text-color;
     transform: translate(-50%, -50%);
     transition-property: transform, opacity;
     transition-duration: 250ms;
@@ -41,7 +41,7 @@
     transform: translate(-50%, 50%) scale(0.5);
 }
 
-.modal-close-btn {
+.modal-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -49,18 +49,18 @@
     height: 30px;
     border-radius: 50% 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--main-text-color);
+    background-color: $main-text-color;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
+
+    &:hover {
+        fill: $main-button-color;
+    }
 }
 
-.modal-close-btn:hover {
-    fill: var(--main-button-color);
-}
-
-.modal-close-icon {
+.modal-icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -71,7 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--main-heading-color);
+    color: $main-heading-color;
     flex-direction: column;
 
 }
@@ -98,7 +98,7 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: var(--fill-email-and-phone);
+    color: $fill-email-and-phone;
 }
 
 .regestration-input {
@@ -121,7 +121,7 @@
     resize: none;
 }
 
-.regestration-polity-label {
+.regestration-label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,18 +129,18 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin: 0 0 30px 0;
-    color: var(--fill-email-and-phone);
+    color: $fill-email-and-phone;
 }
 
 .regestration-send {
     align-self: center;
-    color: var(--main-text-color);
+    color: var($main-text-color);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #188ce8;
 }
 
 .regestration-link {
-    color: var(--main-button-color);
+    color: var($main-button-color);
     text-decoration: underline;
 }
 
@@ -170,6 +170,6 @@
 .tel:active,
 .email:active,
 .comment:active {
-    border-color: var(--main-button-color);
-    fill: var(--main-button-color);
+    border-color: $main-button-color;
+    fill: $main-button-color;
 }

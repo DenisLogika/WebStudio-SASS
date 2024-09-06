@@ -1,10 +1,10 @@
 .regestration-button {
-    background-color: var(--main-button-color);
-    color: var(--main-text-color);
+    background-color: $main-button-color;
+    color: $main-text-color;
     padding: 10px 32px;
     min-width: 216px;
     border: 0;
-    font-family: var(--font-family);
+    font-family: $font-family;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -14,12 +14,12 @@
 }
 
 .title {
-    color: var(--main-text-color);
+    color: $main-text-color;
     margin-bottom: 30px;
 }
 
 .section-title {
-    background-color: var(--main-header-color);
+    background-color: $main-header-color;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image:
@@ -32,7 +32,7 @@
 }
 
 .section-title {
-    background-color: var(--main-heading-color);
+    background-color: $main-heading-color;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;

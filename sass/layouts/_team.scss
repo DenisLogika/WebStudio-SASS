@@ -1,12 +1,12 @@
 .team {
-    background-color: var(--main-background-section4);
+    background-color: $main-background-section4;
 }
 
 .team-list {
     display: flex;
 }
 
-.our-team-svg {
+.team-svg {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -16,26 +16,26 @@
     display: flex;
 }
 
-.our-team-link {
+.team-link {
     border-radius: 50%;
     width: 44px;
     height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--social-links-workers);
+    fill: $social-links-workers;
     transition-property: fill, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
+
+    &:hover{
+        fill: $main-text-color;
+        background-color: $main-button-color;
+    }
 }
 
-.our-team-link:hover{
-    fill: var(--main-text-color);
-    background-color: var(--main-button-color);
-}
-
-.team-image-person {
+.team-image {
     margin-bottom: 30px;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .heading-team{
-    font-family: var(--font-family);
+    font-family: $font-family;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.5;
@@ -63,8 +63,8 @@
     text-align: center;
 }
 
-.team-name-person {
-    font-family: var(--font-family);
+.team-person {
+    font-family: $font-family;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -72,7 +72,7 @@
 }
 
 .team-job {
-    font-family: var(--font-family);
+    font-family: $font-family;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -81,7 +81,7 @@
 }
 
 .team.list-item {
-    background-color: var(--white-color);
+    background-color: $main-text-color;
     border-radius: 0 0 4px 4px;
     box-shadow:
         0 2px 1px 0 rgba(0, 0, 0, 0.2),
