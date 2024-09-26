@@ -11,11 +11,18 @@
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
+    @media screen and (min-width: 1200px){
+        padding: 10px 32px;
+    }
 }
 
 .title {
     color: $main-text-color;
     margin-bottom: 30px;
+    @media screen and (min-width: 1200px){
+        width: 696px;
+        font-size: 44px;
+    }
 }
 
 .section-title {
@@ -29,12 +36,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.section-title {
     background-color: $main-heading-color;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    @media screen and (min-width: 1200px){
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 }
-

@@ -4,6 +4,15 @@
 
 .team-list {
     display: flex;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    @media screen and (min-width: 1200px){
+        @include flex(normal,normal,0px,nowrap,row);
+    }
 }
 
 .team-svg__list {
@@ -12,8 +21,14 @@
     gap: 10px;
 }
 
-.svg-team__item {
+.svg-team {
     display: flex;
+    gap: 10px;
+    @include flex(center,center,0px,nowrap,row);
+
+    &__item {
+        @include flex(normal,normal,0px,nowrap,row);    
+    }
 }
 
 .team-link {
@@ -47,6 +62,12 @@
     width: 270px;
     text-align: center;
     padding-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+    @media screen and (min-width: 1200px){
+        width: 270px;
+    }
 }
 
 .heading-team {

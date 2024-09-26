@@ -9,6 +9,24 @@
     animation-iteration-count: infinite;
 }
 
+.button-list {
+    margin-bottom: 34px;
+    padding-bottom: 26px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+
+    @media screen and (min-width: 1200px){
+        width: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+}
+
+.button-list-item {
+    margin-right: 8px;
+}
+
 .portfolio-all {
     font-family: $font-family;
     font-weight: 500;
@@ -161,6 +179,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
+    @include flex(center,center,0px,nowrap,row);
 }
 
 .portfolio-img:hover .portfolio-hover {

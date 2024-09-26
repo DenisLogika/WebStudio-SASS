@@ -1,6 +1,10 @@
 .occupation.sections {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    @media screen and (min-width: 1200px){
+        display: block;
+    }
 }
 
 .occupation-list {
@@ -45,4 +49,5 @@
     text-align: center;
     color: $main-heading-color;
     margin-bottom: 50px;
+    @include flex(center,center,0px,nowrap,row);
 }

@@ -1,5 +1,8 @@
 .compony {
-    padding: 94px, 0;
+    padding: 60px, 0;
+    @media screen and (min-width: 1200px) {
+        padding: 94px 0;
+    }
 }
 
 .compony-title {
@@ -24,10 +27,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    @media screen and (min-width: 1200px) {
+        @include flex(center,center,0px,nowrap,row);
+    }
 }
 
 .company-link {
-    width: 170px;
+    width: 210px;
     height: 92px;
     display: flex;
     border: 1px solid $social-links-workers;
@@ -39,6 +45,13 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
+
+    @media screen and (min-width: 1200px) {
+        width: 268px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 170px;
+    }
 
     &:hover {
         fill: $main-button-color;
