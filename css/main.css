@@ -368,9 +368,6 @@ body {
   }
 }
 
-.features-list {
-  display: flex;
-}
 @media screen and (min-width: 768px) {
   .features-list {
     display: flex;
@@ -691,14 +688,21 @@ body {
 .company-list {
   display: flex;
   gap: 30px;
-  margin-left: 215px;
-  margin-right: 215px;
   justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .company-list {
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    gap: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 
 .company-item {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 @media screen and (min-width: 1200px) {
@@ -713,7 +717,6 @@ body {
 }
 
 .company-link {
-  width: 210px;
   height: 92px;
   display: flex;
   border: 1px solid #AFB1B8;
@@ -901,7 +904,7 @@ body {
   justify-content: normal;
   align-items: normal;
   gap: 0px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: normal;
 }
 
@@ -1298,9 +1301,17 @@ body {
 }
 
 .portfolio-list-item {
-  display: flex;
-  flex-direction: column;
   flex-basis: calc((100% - 60px) / 3);
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-list-item {
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    gap: 0px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
 }
 
 .portfolio-name {

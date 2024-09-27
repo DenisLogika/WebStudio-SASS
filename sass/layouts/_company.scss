@@ -18,14 +18,14 @@
 .company-list {
     display: flex;
     gap: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
     justify-content: center;
+    @media screen and (min-width: 1200px){
+        @include flex(normal, normal, 0px, wrap, row)
+    }
 }
 
 .company-item {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     @media screen and (min-width: 1200px) {
         @include flex(center,center,0px,nowrap,row);
@@ -33,7 +33,6 @@
 }
 
 .company-link {
-    width: 210px;
     height: 92px;
     display: flex;
     border: 1px solid $social-links-workers;

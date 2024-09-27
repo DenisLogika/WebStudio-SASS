@@ -98,7 +98,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    @include flex(normal,normal,0px,nowrap,normal);
+    @include flex(normal,normal,0px,wrap,normal);
 }
 
 .footer-item {
